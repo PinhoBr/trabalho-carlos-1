@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(../font/Poppins-SemiBold.ttf);
+
+}
+
+* {
+ 
+  box-sizing: border-box;
+  font-family: 'Poppins';
+ 
+}
+
+body {
+  background-color: #ffffff;
+  color: #333;
+  padding: 2rem;
+  transition: 0.3s;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #901efa;
+ margin: auto;
+  width: max-content;
+  margin-bottom: 22px;
+  display: flex;
+}
+
+#abas {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+  margin: auto;
+  width: max-content;
+}
+
+#intarefa {
+  margin: auto;
+  width: max-content;
+   display: flex;
+  padding: 10px;
+  border: 2px solid #ccc;
+  outline: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+button {
+  background-color: #901efa;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+ 
+}
+
+button:hover {
+  background-color: #901efa;
+}
+p{
+  margin: auto;
+  width: max-content;
+   display: flex;
+}
+h3 {
+  margin: auto;
+  width: max-content;
+   display: flex;
+  margin-top: 1.5rem;
+  color: #901efa;
+}
+
+#histarefa {
+  list-style: none;
+  margin-top: 10px;
+}
+
+#histarefa li {
+   margin: auto;
+  width: 900px;
+   
+   
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+ 
+}
+
+
+.tema-escuro {
+  background-color: #121212;
+  color: #f1f1f1;
+  
+}
+
+
+
+.tema-escuro #intarefa {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+
+}
+
+.tema-escuro #histarefa li {
+  background-color: #2a2a2a;
+}
